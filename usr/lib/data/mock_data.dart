@@ -1,0 +1,66 @@
+import '../models/video_post.dart';
+
+class MockData {
+  static final List<VideoPost> videos = [
+    VideoPost(
+      id: '1',
+      username: 'skater_boi',
+      userAvatarUrl: 'https://i.pravatar.cc/150?u=skater_boi',
+      videoUrl: 'https://images.unsplash.com/photo-1564245739699-b51122345649?q=80&w=1000&auto=format&fit=crop', // Placeholder image
+      caption: 'Landing that kickflip finally! 🛹 #skate #vibes',
+      tags: ['skate', 'vibes', 'fyp'],
+      likes: 12400,
+      comments: 342,
+      shares: 120,
+      musicTrackName: 'Skate Anthem - The Boards',
+    ),
+    VideoPost(
+      id: '2',
+      username: 'urban_explorer',
+      userAvatarUrl: 'https://i.pravatar.cc/150?u=urban',
+      videoUrl: 'https://images.unsplash.com/photo-1478720568477-152d9b164e63?q=80&w=1000&auto=format&fit=crop',
+      caption: 'City lights at midnight 🌃 The view is insane.',
+      tags: ['city', 'nightlife', 'explore'],
+      likes: 8500,
+      comments: 156,
+      shares: 45,
+      musicTrackName: 'Midnight City - M83',
+    ),
+    VideoPost(
+      id: '3',
+      username: 'dance_queen',
+      userAvatarUrl: 'https://i.pravatar.cc/150?u=dance',
+      videoUrl: 'https://images.unsplash.com/photo-1547153760-18fc86324498?q=80&w=1000&auto=format&fit=crop',
+      caption: 'New choreography! Tell me what you think 💃',
+      tags: ['dance', 'challenge', 'trending'],
+      likes: 45000,
+      comments: 1200,
+      shares: 3400,
+      musicTrackName: 'Move Your Body - Sia',
+    ),
+    VideoPost(
+      id: '4',
+      username: 'tech_guru',
+      userAvatarUrl: 'https://i.pravatar.cc/150?u=tech',
+      videoUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop',
+      caption: 'This setup is pure fire 🔥 #setup #gaming',
+      tags: ['setup', 'gaming', 'pc'],
+      likes: 2300,
+      comments: 89,
+      shares: 12,
+      musicTrackName: 'Cyberpunk Theme - Synth',
+    ),
+    VideoPost(
+      id: '5',
+      username: 'travel_diaries',
+      userAvatarUrl: 'https://i.pravatar.cc/150?u=travel',
+      videoUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop',
+      caption: 'Missing the beach days 🌊',
+      tags: ['travel', 'beach', 'summer'],
+      likes: 15600,
+      comments: 450,
+      shares: 890,
+      musicTrackName: 'Ocean Waves - Nature Sounds',
+    ),
+  ];
+}
